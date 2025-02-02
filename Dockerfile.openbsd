@@ -1,0 +1,3 @@
+FROM openbsd:latest
+RUN pkg_add -r curl vim git
+CMD ["/bin/sh"]
